@@ -1,0 +1,23 @@
+.entered_data{
+    margin: 0px 5px;
+    display:flex;
+    flex-direction: column;
+    background-color:#e9e9ef ;
+    position:absolute;
+    top:240px;
+    z-index:-1;
+}
+
+
+.text_box{
+    margin-top: 2px;
+    height:80px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    width:93%;
+    margin:5px;
+}
+
+#flexRadioDefault1{
+    width: 50px;
+}

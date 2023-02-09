@@ -1,0 +1,50 @@
+body{
+    background-color: #f0f0f0;
+    
+    font-family: roboto;
+}
+
+.informationbar{
+    display:flex;
+    flex: row;
+   
+    margin: 0px 5px;
+    background-color: #223Bc9;
+    color:#ffffff;
+    
+    position:fixed;
+    top:53px;
+    left:0;
+    right:0;
+}
+
+.informationbar .bi{
+    width:20px;
+    padding:25px;
+    border-radius: 15px;
+    margin-top:40px;
+}
+
+.informationbar .bi:hover{
+  background-color: #6476D9;
+}
+
+.info{
+    padding:10px;
+    align-self:flex-start;
+    color:#ffffff;
+    margin-left:40px;
+    font-family: cursive;
+}
+
+.info:hover{
+    
+    transform: scale(1.08);
+}
+
+.information_symbols{
+display:flex;
+flex-direction:row;
+
+margin-top: 50px;
+}
